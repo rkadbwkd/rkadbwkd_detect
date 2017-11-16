@@ -56,7 +56,7 @@
   변수에는 .dcm 확장자를 가진 CT 슬라이스 정보가 저장됩니다
   그 후 공기부분의 픽셀 강도 값이 -2000이므로 -2000의 강도값을 0으로 업데이트 합니다
   
-<br>
+
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Binary.PNG)
   
   
@@ -74,7 +74,7 @@
   임계값은 604의 값을 사용하고 실험에서 발견 된 값으로 사용하였습니다.
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Binary.PNG)
 
-<br>
+
 ### Step 2 - 2 : 이미지 테두리에 연결된 얼룩 제거
 <br>
 이진화 된 결과를 살펴 보게 되면 아래 부분에 유난히 튀는 부분이 있습니다.
