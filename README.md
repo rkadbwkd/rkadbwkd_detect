@@ -47,7 +47,7 @@
   변수에는 .dcm 확장자를 가진 CT 슬라이스 정보가 저장됩니다
   그 후 공기부분의 픽셀 강도 값이 -2000이므로 -2000의 강도값을 0으로 업데이트 합니다
   
-![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Air_delect.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Bianry.PNG)
   
   
   
@@ -75,7 +75,7 @@
 
 	  변수  = clear_border(input 변수)
 	  
-![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/check.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/border.PNG)
 
 
 
@@ -94,7 +94,7 @@
 
 이미지 레이블링을 진행 후 레이블링 된 이미지를 다시 두개의 영역으로 구분합니다.
 
-![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/border.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/division.PNG)
 
 
 
@@ -106,7 +106,7 @@
 침식 연산은 테두리나 선 부분들이 얇아 지게 하는 연산입니다.
 침식 연산 진행 후 닫힘 연산을 진행하여 작은 Hole을 채우는 작업입니다.
 
-![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/step6.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/hole.PNG)
 
 
 
@@ -116,7 +116,7 @@
 위의 연산 결과로 만든 Mask 이미지를 원본 이미지에 씌웁니다
 
 
-![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/SuperImpose.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/superimpose.PNG)
 
 
 ## Step 3 : 3차원으로 확인 후 혈관 부분 제거
