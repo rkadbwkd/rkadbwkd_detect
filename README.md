@@ -85,7 +85,7 @@
 
 
 	  변수  = clear_border(input 변수)
-<br>	  
+	  
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/border.PNG)
 
 <br>
@@ -94,7 +94,6 @@
 <br>
 얼룩을 제거 한 후 이미지 레이블링을 합니다. 
 이미지 레이블링이란 인접한 화소에 모두 같은 번호(Label)를 붙이고 연결되지 않은 다른 성분에는 다른 번호를 붙이는 것입니다.
-<br>
 
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/labeling.PNG)
 
@@ -104,7 +103,6 @@
 ### Step 2 - 4 : 레이블링 된 3개의 영역을 2개의 영역으로 축소
 <br>
 이미지 레이블링을 진행 후 레이블링 된 이미지를 다시 두개의 영역으로 구분합니다.
-<br>
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/division.PNG)
 
 <br>
