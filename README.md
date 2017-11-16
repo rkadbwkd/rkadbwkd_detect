@@ -22,7 +22,6 @@
   - numpy
   - scikit-image
   - scikit-learn
-  - keras (tensorflow backend)
   - matplotlib
   - pydicom
   - SimpleITK
