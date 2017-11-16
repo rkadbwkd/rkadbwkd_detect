@@ -43,7 +43,7 @@
 
     변수 = dicom.read_file('파일경로')
     
-    <br>
+ <br>
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG)
 
 
@@ -56,17 +56,17 @@
   변수에는 .dcm 확장자를 가진 CT 슬라이스 정보가 저장됩니다
   그 후 공기부분의 픽셀 강도 값이 -2000이므로 -2000의 강도값을 0으로 업데이트 합니다
   
-  <br>
+<br>
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Binary.PNG)
   
   
-  <br>
+<br>
   
 ## Step 2 : Mask Image 만들기 / 폐의 분할
 <br>
   CT 슬라이스를 dicom으로 읽으면 폐가 더 어두운 영역임을 확인 할 수 있습니다.
   폐의 밝은 부분은 혈관이나 공기입니다. Mask 이미지 만들기는 총 7단계로 진행 됩니다
-  <br>
+<br>
 ### Step 2 - 1 : 이진화
 <br>
   이미지처리에서 이진화란 어느 임계값을 기준으로 임계값보다 값이 큰 경우 0
