@@ -21,9 +21,10 @@
   - SimpleITK
   
   
+ 
   
-  
-![Alt text](/https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG/to/img.jpg)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG)
+
 ## Step 1 : CT 슬라이스 이미지 읽기 
 
   
