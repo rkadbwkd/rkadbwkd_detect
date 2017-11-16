@@ -126,7 +126,7 @@
 
 <br>
 위의 연산 결과로 만든 Mask 이미지를 원본 이미지에 씌웁니다
-<br>
+
 
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/superimpose.PNG)
 <br>
@@ -143,6 +143,7 @@
 ## Step 4 : 최종 결과 확인
 
 <br>
+
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/result.PNG)
 
 
