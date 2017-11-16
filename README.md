@@ -68,15 +68,18 @@
   폐의 밝은 부분은 혈관이나 공기입니다. Mask 이미지 만들기는 총 7단계로 진행 됩니다
 <br>
 ### Step 2 - 1 : 이진화
-<br>
+
+
   이미지처리에서 이진화란 어느 임계값을 기준으로 임계값보다 값이 큰 경우 0
   작은 경우 255의 값으로 만들어주어 흑/백색으로 이미지를 만듭니다.
   임계값은 604의 값을 사용하고 실험에서 발견 된 값으로 사용하였습니다.
+  
+  
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Binary.PNG)
 
 
 ### Step 2 - 2 : 이미지 테두리에 연결된 얼룩 제거
-<br>
+
 이진화 된 결과를 살펴 보게 되면 아래 부분에 유난히 튀는 부분이 있습니다.
 이 부분을 제거 하기 위하여 clear_border라는 패키지를 사용하여 얼룩을 제거합니다
 
@@ -87,7 +90,6 @@
 	  
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/border.PNG)
 
-<br>
 
 ### Step 2 - 3 : 이미지 레이블링
 <br>
