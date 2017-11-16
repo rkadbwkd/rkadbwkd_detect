@@ -25,7 +25,7 @@
 ## Step 1 : CT 슬라이스 이미지 읽기 
 
 
-http://github.com/rkadbrkd
+http://github.com/rkadbwkd_detect/CT_Slice_Image.PNG
   
   
   
