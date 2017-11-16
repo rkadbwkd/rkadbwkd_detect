@@ -122,9 +122,17 @@
 ## Step 3 : 3차원으로 확인 후 혈관 부분 제거
 
 
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/vowel.PNG)
+
+
+
 
 
 ## Step 4 : 최종 결과 확인
+
+
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/result.PNG)
+
 
 
 
