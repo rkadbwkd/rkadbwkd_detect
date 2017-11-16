@@ -39,7 +39,9 @@
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG)
 
 
-========
+
+
+
 
   
   변수에는 .dcm 확장자를 가진 CT 슬라이스 정보가 저장됩니다
@@ -59,8 +61,8 @@
   이미지처리에서 이진화란 어느 임계값을 기준으로 임계값보다 값이 큰 경우 0
   작은 경우 255의 값으로 만들어주어 흑/백색으로 이미지를 만듭니다.
   임계값은 604의 값을 사용하고 실험에서 발견 된 값으로 사용하였습니다.
-  
-  ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Binary.PNG)
+
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Binary.PNG)
 
 
 ### Step 2 - 2 : 이미지 테두리에 연결된 얼룩 제거
