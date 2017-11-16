@@ -32,7 +32,7 @@
   
 
 ## Step 1 : CT 슬라이스 이미지 읽기 
-<br>
+
 
   
   각 CT 스캔은 DICOM 형식으로 여러개의 2차원 슬라이스로 구성됩니다.
@@ -43,13 +43,13 @@
 
     변수 = dicom.read_file('파일경로')
     
- <br>
+ 
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG)
 
 
 
 
-<br>
+
 
 
   
