@@ -66,7 +66,9 @@
 <br>
   CT 슬라이스를 dicom으로 읽으면 폐가 더 어두운 영역임을 확인 할 수 있습니다.
   폐의 밝은 부분은 혈관이나 공기입니다. Mask 이미지 만들기는 총 7단계로 진행 됩니다
-<br>
+
+
+
 ### Step 2 - 1 : 이진화
 
 
@@ -102,7 +104,7 @@
 <br>
 
 ### Step 2 - 4 : 레이블링 된 3개의 영역을 2개의 영역으로 축소
-<br>
+
 이미지 레이블링을 진행 후 레이블링 된 이미지를 다시 두개의 영역으로 구분합니다.
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/division.PNG)
 
@@ -116,7 +118,6 @@
 침식 연산은 테두리나 선 부분들이 얇아 지게 하는 연산입니다.
 침식 연산 진행 후 닫힘 연산을 진행하여 작은 Hole을 채우는 작업입니다.
 
-<br>
 ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/hole.PNG)
 
 
