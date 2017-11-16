@@ -23,7 +23,6 @@
   
  
   
-![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG)
 
 ## Step 1 : CT 슬라이스 이미지 읽기 
 
@@ -37,12 +36,12 @@
     변수 = dicom.read_file('파일경로')
     
     
-    ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG)
   
   변수에는 .dcm 확장자를 가진 CT 슬라이스 정보가 저장됩니다
   그 후 공기부분의 픽셀 강도 값이 -2000이므로 -2000의 강도값을 0으로 업데이트 합니다
   
-  	![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Air_delect.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/Air_delect.PNG)
   
   
   
