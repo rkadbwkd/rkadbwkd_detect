@@ -7,7 +7,7 @@
 
 
 
-# 개발환경 및 패키지
+## 개발환경 및 패키지
 
   - Python
   - numpy
@@ -17,7 +17,11 @@
   - matplotlib
   - pydicom
   - SimpleITK
+  
+  
+  
+  ## Step 1 : CT 이미지 읽기
 
 
-asdfsdfasdff
+
 
