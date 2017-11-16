@@ -75,7 +75,7 @@
 
 	  변수  = clear_border(input 변수)
 	  
-	  ![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/border.PNG)
+![solarized palette](https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/check.PNG)
 
 
 
