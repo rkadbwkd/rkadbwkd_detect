@@ -21,6 +21,8 @@
   
   
   ## Step 1 : CT 이미지 읽기
+  
+  https://github.com/rkadbwkd/rkadbwkd_detect/blob/master/CT_Slice_Image.PNG
 
 
 
