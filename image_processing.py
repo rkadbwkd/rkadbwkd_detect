@@ -1,5 +1,5 @@
 import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import pandas as pd
 import skimage, os
 from skimage.morphology import ball, disk, dilation, binary_erosion, remove_small_objects, erosion, closing, reconstruction, binary_closing
 from skimage.measure import label,regionprops, perimeter
@@ -17,7 +17,7 @@ import numpy as np
 
 
 
-# Any results you write to the current directory are saved as output.
+
 b = dicom.read_file('../input/sample_images/00cba091fa4ad62cc3200a657aeb957e/38c4ff5d36b5a6b6dc025435d62a143d.dcm')
 
 slice = b.pixel_array
@@ -25,8 +25,8 @@ slice[slice == -2000] = 0
 plt.imshow(slice, cmap=plt.cm.gray)
 
 def plot_3d(image, threshold=-300):
-    # Position the scan upright,
-    # so the head of the patient would be at the top facing the camera
+   
+
     p = image.transpose(2, 1, 0)
     p = p[:, :, ::-1]
 
@@ -35,7 +35,7 @@ def plot_3d(image, threshold=-300):
     fig = plt.figure(figsize=(10, 10))
     ax = fig.add_subplot(111, projection='3d')
 
-    # Fancy indexing: `verts[faces]` to generate a collection of triangles
+   
     mesh = Poly3DCollection(verts[faces], alpha=0.1)
     face_color = [0.5, 0.5, 1]
     mesh.set_facecolor(face_color)
@@ -48,13 +48,13 @@ def plot_3d(image, threshold=-300):
     plt.show()
 
 def read_ct_scan(folder_name):
-    # Read the slices from the dicom file
+   
     slices = [dicom.read_file(folder_name + filename) for filename in os.listdir(folder_name)]
 
-    # Sort the dicom slices in their respective order
+   
     slices.sort(key=lambda x: int(x.InstanceNumber))
 
-    # Get the pixel values for all the slices
+   
     slices = np.stack([s.pixel_array for s in slices])
     slices[slices == -2000] = 0
     return slices
@@ -76,9 +76,7 @@ def plot_ct_scan(scan):
 
 
 def get_segmented_lungs(im, plot=False):
-    '''
-    This funtion segments the lungs from the given 2D slice.
-    '''
+   
     if plot == True:
         f, plots = plt.subplots(8, 1, figsize=(5, 40))
     '''
